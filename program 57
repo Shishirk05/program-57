@@ -1,0 +1,29 @@
+//Name:     Litzy Yanez
+//Email: litzy.yanez76@myhunter.cuny.edu
+#include <iostream>
+using namespace std;
+int main() {
+    int month;
+    cout << "Enter a month (as a number): ";
+    cin >> month
+    if ((month < 3) or (month > 11))
+    {
+       cout <<"Happy Winter" << endl; 
+    }
+    
+    else if ((3 <= month ) and (month < 7))
+    {
+       cout <<"Happy Spring" << endl; 
+    }
+    else if ((7 <= month ) and (month < 9))
+    {
+       cout <<"Happy Summer" << endl; 
+    }
+  
+   else
+    {
+       cout <<"Happy Fall" << endl; 
+    }
+
+    return 0;
+}
