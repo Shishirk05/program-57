@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int month;
     cout << "Enter a month (as a number): ";
-    cin >> month
+    cin >> month;
     if ((month < 3) or (month > 11))
     {
        cout <<"Happy Winter" << endl; 
